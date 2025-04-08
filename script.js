@@ -7,7 +7,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
 
   const statusEl = document.getElementById("status");
 
-  fetch("https://script.google.com/macros/s/AKfycbybNYX-GPkOJ5lUB0N2PeUVRpVsca4RDpsdh0T8QlxAQH9YxTAi3-I5D_RE674idCA/exec", {
+  fetch("https://absen-proxy.vercel.app/api/proxy", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
